@@ -14,7 +14,7 @@ document.getElementById('detailsForm2').addEventListener('submit', function(even
 
 document.getElementById('amountForm').addEventListener('submit', function(event) {
     event.preventDefault();
-    window.open('https://www.justdial.com/jdmart/Vijayawada/Techno-Enterprises-Ring-Road-Ring-Road/0866PX866-X866-111022164442-M5G3_BZDET/catalogue?ref=auto&searchfrom=auto|home&trkid=6103325764', '_blank');
+    window.open('https://drive.google.com/file/d/18w0wyAo9za6ngKQHNcDOh6g0Hb4_80Gh/view?usp=drivesdk', '_blank');
 });
 
 document.getElementById('goBackForm').addEventListener('submit', function(event) {
