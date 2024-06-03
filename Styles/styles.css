@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body{
+    font-weight: bolder;
+    font-family: 'Comic Neue', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #854442;
+}
+
+.section{
+    display: flex;
+}
+
+.name {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 15px;
+    background-image: url('/images/profile.jpg'); /* Add the URL of your image */
+    background-size: cover; /* Ensure the image covers the entire element */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    padding: 10px;
+    border: #3c2f2f;
+    border-radius: 50%;
+    box-shadow: 0px 0px 32px 4px rgba(0, 0, 0, 0.7);
+    width: 80px;
+    height: 80px; /* Added height to make the element a circle */
+    line-height: 80px; /* Center the text vertically */
+}
+
+
+.login-container {
+    background-color: #fff4e6;
+    padding: 20px;
+    border-radius: 32px;
+    box-shadow: 0px 0px 32px 4px rgba(0, 0, 0, 0.7);
+    width: 300px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+.login-container input {
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.login-container input[type="checkbox"]{
+    width: 100%;
+    border-radius: 16px;
+    padding: 0px;
+    box-sizing: border-box;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.show-password-container input[type="checkbox"] {
+    display: inline-block; 
+    vertical-align:auto;
+    text-align: left;
+    padding: auto;
+    /* margin-bottom: 10px; */
+}
+#show-password {
+    vertical-align: middle;
+    /* margin: 10px 0px 5px; */
+    margin: -11px -142px 2.5px -175px;
+}
+
+.show-password-container label {
+    display: inline-block;
+    vertical-align: middle;;
+    margin: -15px 120px 0px 0px;
+    /* margin: 5px; */
+    top: 0%;
+}
+
+.login-container button {
+    width: 50%;
+    padding: 17px;
+    background-color: #3c2f2f;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #45a049;
+}
+
+
+/* Add this CSS to style the "Show Password" checkbox */
+/*
+
+
+
+*/
+#error-message {
+    color: red;
+    margin-top: 10px;
+}
