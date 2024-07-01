@@ -351,6 +351,7 @@ html{
     flex-wrap: wrap;
     gap: 5rem;
     margin: 3rem 0;
+    justify-content: center;
 }
 
 .features .row .image{
