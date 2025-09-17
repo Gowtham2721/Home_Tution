@@ -1,0 +1,153 @@
+PS C:\Users\GMAN9890\Desktop\samplePyDjproject> pip install gdal
+Defaulting to user installation because normal site-packages is not writeable
+Collecting gdal
+  Using cached gdal-3.11.4.tar.gz (878 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Building wheels for collected packages: gdal
+  Building wheel for gdal (pyproject.toml) ... error
+  error: subprocess-exited-with-error
+
+  × Building wheel for gdal (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [130 lines of output]
+      C:\Users\GMAN9890\AppData\Local\Temp\pip-build-env-51toy54t\overlay\Lib\site-packages\setuptools\config\_apply_pyprojecttoml.py:82: SetuptoolsWarning: `license` overwritten by `pyproject.toml`
+        corresp(dist, value, root_dir)
+      C:\Users\GMAN9890\AppData\Local\Temp\pip-build-env-51toy54t\overlay\Lib\site-packages\setuptools\config\_apply_pyprojecttoml.py:82: SetuptoolsWarning: `extras_require` overwritten in `pyproject.toml` (optional-dependencies)
+        corresp(dist, value, root_dir)
+      Using numpy 2.3.3
+      running bdist_wheel
+      running build
+      running build_py
+      creating build\lib.win-amd64-cpython-311\osgeo
+      copying osgeo\gdal.py -> build\lib.win-amd64-cpython-311\osgeo
+      copying osgeo\gdalconst.py -> build\lib.win-amd64-cpython-311\osgeo
+      copying osgeo\gdalnumeric.py -> build\lib.win-amd64-cpython-311\osgeo
+      copying osgeo\gdal_array.py -> build\lib.win-amd64-cpython-311\osgeo
+      copying osgeo\gdal_fsspec.py -> build\lib.win-amd64-cpython-311\osgeo
+      copying osgeo\gnm.py -> build\lib.win-amd64-cpython-311\osgeo
+      copying osgeo\ogr.py -> build\lib.win-amd64-cpython-311\osgeo
+      copying osgeo\osr.py -> build\lib.win-amd64-cpython-311\osgeo
+      copying osgeo\__init__.py -> build\lib.win-amd64-cpython-311\osgeo
+      creating build\lib.win-amd64-cpython-311\osgeo_utils
+      copying gdal-utils\osgeo_utils\gdal2tiles.py -> build\lib.win-amd64-cpython-311\osgeo_utils
+      copying gdal-utils\osgeo_utils\gdal2xyz.py -> build\lib.win-amd64-cpython-311\osgeo_utils
+      copying gdal-utils\osgeo_utils\gdalattachpct.py -> build\lib.win-amd64-cpython-311\osgeo_utils
+      copying gdal-utils\osgeo_utils\gdalcompare.py -> build\lib.win-amd64-cpython-311\osgeo_utils
+      copying gdal-utils\osgeo_utils\gdalmove.py -> build\lib.win-amd64-cpython-311\osgeo_utils
+      copying gdal-utils\osgeo_utils\gdal_calc.py -> build\lib.win-amd64-cpython-311\osgeo_utils
+      copying gdal-utils\osgeo_utils\gdal_edit.py -> build\lib.win-amd64-cpython-311\osgeo_utils
+      copying gdal-utils\osgeo_utils\gdal_fillnodata.py -> build\lib.win-amd64-cpython-311\osgeo_utils
+      copying gdal-utils\osgeo_utils\gdal_merge.py -> build\lib.win-amd64-cpython-311\osgeo_utils
+      copying gdal-utils\osgeo_utils\gdal_pansharpen.py -> build\lib.win-amd64-cpython-311\osgeo_utils
+      copying gdal-utils\osgeo_utils\gdal_polygonize.py -> build\lib.win-amd64-cpython-311\osgeo_utils
+      copying gdal-utils\osgeo_utils\gdal_proximity.py -> build\lib.win-amd64-cpython-311\osgeo_utils
+      copying gdal-utils\osgeo_utils\gdal_retile.py -> build\lib.win-amd64-cpython-311\osgeo_utils
+      copying gdal-utils\osgeo_utils\gdal_sieve.py -> build\lib.win-amd64-cpython-311\osgeo_utils
+      copying gdal-utils\osgeo_utils\ogrmerge.py -> build\lib.win-amd64-cpython-311\osgeo_utils
+      copying gdal-utils\osgeo_utils\ogr_layer_algebra.py -> build\lib.win-amd64-cpython-311\osgeo_utils
+      copying gdal-utils\osgeo_utils\pct2rgb.py -> build\lib.win-amd64-cpython-311\osgeo_utils
+      copying gdal-utils\osgeo_utils\rgb2pct.py -> build\lib.win-amd64-cpython-311\osgeo_utils
+      copying gdal-utils\osgeo_utils\__init__.py -> build\lib.win-amd64-cpython-311\osgeo_utils
+      creating build\lib.win-amd64-cpython-311\osgeo_utils\auxiliary
+      copying gdal-utils\osgeo_utils\auxiliary\array_util.py -> build\lib.win-amd64-cpython-311\osgeo_utils\auxiliary
+      copying gdal-utils\osgeo_utils\auxiliary\base.py -> build\lib.win-amd64-cpython-311\osgeo_utils\auxiliary
+      copying gdal-utils\osgeo_utils\auxiliary\batch_creator.py -> build\lib.win-amd64-cpython-311\osgeo_utils\auxiliary
+      copying gdal-utils\osgeo_utils\auxiliary\color_palette.py -> build\lib.win-amd64-cpython-311\osgeo_utils\auxiliary
+      copying gdal-utils\osgeo_utils\auxiliary\color_table.py -> build\lib.win-amd64-cpython-311\osgeo_utils\auxiliary
+      copying gdal-utils\osgeo_utils\auxiliary\extent_util.py -> build\lib.win-amd64-cpython-311\osgeo_utils\auxiliary
+      copying gdal-utils\osgeo_utils\auxiliary\gdal_argparse.py -> build\lib.win-amd64-cpython-311\osgeo_utils\auxiliary
+      copying gdal-utils\osgeo_utils\auxiliary\numpy_util.py -> build\lib.win-amd64-cpython-311\osgeo_utils\auxiliary
+      copying gdal-utils\osgeo_utils\auxiliary\osr_util.py -> build\lib.win-amd64-cpython-311\osgeo_utils\auxiliary
+      copying gdal-utils\osgeo_utils\auxiliary\progress.py -> build\lib.win-amd64-cpython-311\osgeo_utils\auxiliary
+      copying gdal-utils\osgeo_utils\auxiliary\raster_creation.py -> build\lib.win-amd64-cpython-311\osgeo_utils\auxiliary
+      copying gdal-utils\osgeo_utils\auxiliary\rectangle.py -> build\lib.win-amd64-cpython-311\osgeo_utils\auxiliary
+      copying gdal-utils\osgeo_utils\auxiliary\util.py -> build\lib.win-amd64-cpython-311\osgeo_utils\auxiliary
+      copying gdal-utils\osgeo_utils\auxiliary\__init__.py -> build\lib.win-amd64-cpython-311\osgeo_utils\auxiliary
+      creating build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\assemblepoly.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\build_jp2_from_xml.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\classify.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\crs2crs2grid.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\densify.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\dump_jp2.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\epsg_tr.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\esri2wkt.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\fft.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\fix_gpkg.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\gcps2ogr.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\gcps2vec.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\gcps2wld.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\gdal2grd.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\gdalbuildvrtofvrt.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\gdalchksum.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\gdalcopyproj.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\gdalfilter.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\gdalident.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\gdalimport.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\gdalinfo.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\gdallocationinfo.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\gdal_auth.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\gdal_cp.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\gdal_create_pdf.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\gdal_ls.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\gdal_lut.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\gdal_minmax_location.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\gdal_mkdir.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\gdal_remove_towgs84.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\gdal_rm.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\gdal_rmdir.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\gdal_vrtmerge.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\get_soundg.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\histrep.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\hsv_merge.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\jpeg_in_tiff_extract.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\load2odbc.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\loslas2ntv2.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\magphase.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\make_fuzzer_friendly_archive.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\mkgraticule.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\ogr2vrt.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\ogrinfo.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\ogrupdate.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\ogr_build_junction_table.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\ogr_dispatch.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\rel.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\tigerpoly.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\tile_extent_from_raster.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\tolatlong.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\validate_cloud_optimized_geotiff.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\validate_geoparquet.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\validate_gpkg.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\validate_jp2.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\val_repl.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\vec_tr.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\vec_tr_spat.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\wcs_virtds_params.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      copying gdal-utils\osgeo_utils\samples\__init__.py -> build\lib.win-amd64-cpython-311\osgeo_utils\samples
+      running egg_info
+      writing gdal-utils\GDAL.egg-info\PKG-INFO
+      writing dependency_links to gdal-utils\GDAL.egg-info\dependency_links.txt
+      writing entry points to gdal-utils\GDAL.egg-info\entry_points.txt
+      writing requirements to gdal-utils\GDAL.egg-info\requires.txt
+      writing top-level names to gdal-utils\GDAL.egg-info\top_level.txt
+      reading manifest file 'gdal-utils\GDAL.egg-info\SOURCES.txt'
+      writing manifest file 'gdal-utils\GDAL.egg-info\SOURCES.txt'
+      running build_ext
+      building 'osgeo._gdal' extension
+      building 'osgeo._gdalconst' extension
+      building 'osgeo._osr' extension
+      building 'osgeo._ogr' extension
+      building 'osgeo._gnm' extension
+      building 'osgeo._gdal_array' extension
+cpp-build-tools/
+      [end of output]
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for gdal
+Failed to build gdal
+error: failed-wheel-build-for-install
+
+× Failed to build installable wheels for some pyproject.toml based projects
+╰─> gdal
